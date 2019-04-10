@@ -3,6 +3,7 @@ CalMatters Code Resume
 Charlie
 3/31/2019
 
+<body>
 <h5>
 Los Angeles Crime Report Heatmap (2010 - 2019):
 </h5>
@@ -11,17 +12,17 @@ Los Angeles Crime Report Heatmap (2010 - 2019):
 <table>
 <tr>
         <td style="padding:5px">
-            <h5>Female Crime Reports, By Density</h5>
+            <h5>Female Crime Reports, By Relative Density</h5>
             <img class="preload" src="https://github.com/CharlieCarter/Gif/blob/master/fem_crime.gif">
         </td>
         <td style="padding:5px">
-          <h5>Male Crime Reports, By Density</h5>
+          <h5>Male Crime Reports, By Relative Density</h5>
             <img class="preload" src="https://github.com/CharlieCarter/Gif/blob/master/male_crime.gif">
          </td>
     </tr>
 
 </table>
-<head>
+<body>
 <script>
   $(window).load(function() {
       $('.preload').attr('src', function(i,a){
@@ -30,4 +31,3 @@ Los Angeles Crime Report Heatmap (2010 - 2019):
       alert("Active")
   });
   </script>
-</head>
