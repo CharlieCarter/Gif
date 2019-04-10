@@ -21,11 +21,13 @@ Los Angeles Crime Report Heatmap (2010 - 2019):
     </tr>
 
 </table>
+<head>
 <script>
-$(window).load(function() {
-    $('.preload').attr('src', function(i,a){
-        $(this).attr('src','').removeClass('preload').attr('src',a);
-    });
-    alert("Active")
-});
-</script>
+  $(window).load(function() {
+      $('.preload').attr('src', function(i,a){
+          $(this).attr('src','').removeClass('preload').attr('src',a);
+      });
+      alert("Active")
+  });
+  </script>
+</head>
