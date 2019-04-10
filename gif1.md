@@ -3,7 +3,15 @@ CalMatters Code Resume
 Charlie
 3/31/2019
 
-<body>
+<script type="text/javascript">
+$(window).load(function() {
+    $('.preload').attr('src', function(i,a){
+        $(this).attr('src','').removeClass('preload').attr('src',a);
+    });
+    alert("Active")
+});
+</script>
+
 <h5>
 Los Angeles Crime Report Heatmap (2010 - 2019):
 </h5>
@@ -22,12 +30,3 @@ Los Angeles Crime Report Heatmap (2010 - 2019):
     </tr>
 
 </table>
-</body>
-<script type="text/javascript">
-  $(window).load(function() {
-      $('.preload').attr('src', function(i,a){
-          $(this).attr('src','').removeClass('preload').attr('src',a);
-      });
-      alert("Active")
-  });
-  </script>
