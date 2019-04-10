@@ -12,6 +12,7 @@ $(window).load(function() {
     });
 });
 </script>
+
 <h5>
 Los Angeles Crime Report Heatmap (2010 - 2019):
 </h5>
